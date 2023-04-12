@@ -1,0 +1,105 @@
+{%extends 'base.html'%}
+
+{% block title %}Services {% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0 mb-3">
+    <img class="d-block w-100" src="/static/img/bakeryservice.jpg" alt="First slide">
+</div>
+
+<h1 class="text-center py-2">Select from the choice of Bakery items</h1>
+{% comment %} Album - product section {% endcomment %}
+<div class="album py-2 bg-body-tertiary">
+    <div class="container-fluid">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col my-2">
+          <div class="card shadow-sm">
+            {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+            <img class="d-block w-100" src="https://source.unsplash.com/1000x1000/?wedding%20cakes" alt="Chocolate product 1">
+            <div class="card-body">
+                <strong class="card-text">Wedding Cake</strong>
+                <p class="card-text">Find the best quality Wedding Cakes here.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">To Cart</button>
+                  </div>
+                  <small class="text-body-secondary mx-2">5% off</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col my-2">
+          <div class="card shadow-sm">
+            {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+            <img class="d-block w-100" src="https://source.unsplash.com/1000x1000/?birthday%20cakes" alt="Chocolate product 2">
+            <div class="card-body">
+                <strong class="card-text">Birthday Cake</strong>
+                <p class="card-text">Find the best quality Birthday Cakes here.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">To Cart</button>
+                  </div>
+                  <small class="text-body-secondary mx-2">15% off</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col my-2">
+          <div class="card shadow-sm">
+            {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+            <img class="d-block w-100" src="https://source.unsplash.com/1000x1000/?donuts" alt="Chocolate product 3">
+            <div class="card-body">
+                <strong class="card-text">Donuts</strong>
+                <p class="card-text">Find the best quality Donuts here.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">To Cart</button>
+                  </div>
+                  <small class="text-body-secondary mx-2">20% off</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col my-2">
+          <div class="card shadow-sm">
+            {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+            <img class="d-block w-100" src="https://source.unsplash.com/1000x1000/?breads" alt="Chocolate product 4">
+            <div class="card-body">
+                <strong class="card-text">Bread</strong>
+                <p class="card-text">Find the best quality Bread here.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">To Cart</button>
+                  </div>
+                  <small class="text-body-secondary mx-2">10% off</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col my-2">
+          <div class="card shadow-sm">
+            {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> {% endcomment %}
+            <img class="d-block w-100" src="https://source.unsplash.com/1000x1000/?cookies" alt="Chocolate product 5">
+            <div class="card-body">
+                <strong class="card-text">Cookies</strong>
+                <p class="card-text">Find the best quality Cookies here.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">To Cart</button>
+                  </div>
+                  <small class="text-body-secondary mx-2">3% off</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

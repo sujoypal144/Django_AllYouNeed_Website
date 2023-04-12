@@ -1,0 +1,46 @@
+{%extends 'base.html'%}
+
+{% block title %}About {% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0 mb-3">
+    <img class="d-block w-100" src="/static/img/about--us.jpg" alt="About Us">
+</div>
+<div class="container">
+    <h1 class="text-center">About US</h1>
+    <style>
+        .container-area {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .img-area {
+            max-width: 80%;
+            max-height: 80%;
+            padding: 20px;
+        }
+
+        .text-area {
+            font-size: 20px;
+            padding-left: 20px;
+        }
+    </style>
+    <div class="container-area">
+        <div>
+            <img class="img-area" src="/static/img/sujoy.jpg" alt="sujoy pic">
+        </div>
+        <div class="text-area">
+            <h1 class="text-left">Our Story</h1>
+            <p>We, AllYouNeed started from the year 2023, when a group of talented young men became very passionate
+                about desserts. 
+                <br>They took a vow to make and deliver the best quality desserts across the globe.
+                <br>AllYouNeed was founded by Sujoy Pal.
+                <br>AllYouNeed employees always keep their passion for desserts high.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+{% endblock body %}
